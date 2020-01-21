@@ -9,7 +9,7 @@ Professor: Leandro Sales
 
 > O servidor (server.py) espera três conexões para começar o jogo, o primeiro a jogar é determinado pela ordem de conexão.
 
-> O jogador (client.py) é obrigado a, assim que conectar, enviar seu nome para ser distinguido
+> O jogador (client.py) é obrigado a, assim que conectar, enviar seu nome para ser distinguido.
 
 > O jogo funciona da seguinte maneira, serão três jogadores por sessão e o objetivo individual é acertar a palavra, cada
 jogador terá seu turno e nesse turno é possível tanto chutar uma letra ou a palavra a ser adivinhada. Se ao chutar a letra,
@@ -20,3 +20,6 @@ final quem perdeu irá receber a resposta e o nome de quem ganhou, caso tenha um
 
 > Quando o jogo acaba, todos os jogadores serão desconectados e o jogo reiniciado no server, esperando três novas conexões.
 
+* Poderia ser implementado um sistema de sala em que o jogador tenha controle de quando começar a jogar, a partir de três pessoas.
+
+@ Tive dificuldade em entender como funcionava as threads, principalmente para mostrar o jogo a todos os jogadores.
