@@ -88,3 +88,15 @@ def six():
                   |\n \
                   |\n \
                -------\n\n"
+
+def underline(word, right_answers):
+    underlined = "      "
+    for i in word:
+        if i in right_answers:
+            underlined += i + " "
+        else:
+            underlined += "_ "
+
+    underlined += "\n"
+
+    return underlined.encode()

@@ -1,0 +1,20 @@
+Projeto de Redes 1
+
+Aluno: Thiago Tenório Cavalcante Costa
+Professor: Leandro Sales
+
+> Meu projeto é o jogo da forca
+
+> O servidor (server.py) espera três conexões para começar o jogo, o primeiro a jogar é determinado pela ordem de conexão.
+
+> O jogador (client.py) é obrigado a, assim que conectar, enviar seu nome para ser distinguido
+
+> O jogo funciona da seguinte maneira, serão três jogadores por sessão e o objetivo individual é acertar a palavra, cada
+jogador terá seu turno e nesse turno é possível tanto chutar uma letra ou a palavra a ser adivinhada. Se ao chutar a letra,
+e essa letra estiver contida na palavra, irá mostrar na tela os lugares em que essa letra se encontra na palavra. Caso erre
+ao chutar uma letra, o homem na forca irá se construir, é possível errar até 6 vezes. Caso acerte a palavra toda, o jogador
+ganha, caso ocorra de o jogo acabar antes de alguém acertar, não haverá vencedores. É possível também sair na sua vez. No
+final quem perdeu irá receber a resposta e o nome de quem ganhou, caso tenha um vencedor.
+
+> Quando o jogo acaba, todos os jogadores serão desconectados e o jogo reiniciado no server, esperando três novas conexões.
+
