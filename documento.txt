@@ -1,7 +1,9 @@
 Projeto de Redes 1
 
 Aluno: Thiago Tenório Cavalcante Costa
+Curso: Ciência da Computação
 Professor: Leandro Sales
+
 
 > Meu projeto é o jogo da forca
 
